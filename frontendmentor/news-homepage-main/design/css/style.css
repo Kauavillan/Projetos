@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: "Inter-bold";
+    src: url("../../assets/fonts/static/Inter-Bold.ttf");
+}
+
+.menu-icon{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%)
+}
+body{
+    background-color: hsl(36, 100%, 99%);
+    margin:50px  20%;
+    font-family: "Inter" ;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+header ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+#menu-mobile{
+    margin: 0px;
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: hsl(36, 100%, 99%);
+    width: 50vw;
+    margin-left: 40vw;
+}
+#list-mobile{
+    display: flex;
+    flex-direction: column;
+}
+#close{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#menu-mobile img{
+    text-align: right;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+#menu-mobile li{
+    margin: 1.5em 0;
+    font-size: 1.2em;
+    color: hsl(236, 13%, 42%);
+}
+#menu-mobile a{
+    color: hsl(240, 100%, 5%);
+}
+#menu-mobile a:hover{
+    color: hsl(5, 85%, 63%);
+}
+a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    
+}
+header a:hover{
+    color: hsl(5, 85%, 63%);
+}
+header li{
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+main{
+
+    margin-top: 30px;
+}
+#container img{
+    width: 100%;
+}
+#presentation{
+    margin: 30px 0;
+}
+
+h1{
+    font-family: "Inter-bold";
+    font-weight: 800;
+    margin: 0 20px 0 0;
+    font-size: 45px;
+}
+
+#text p{
+    margin-top: 0;
+    line-height: 25px;
+}
+#text button{
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    margin: 15px 0 0 0;
+    transition: background-color 0.5s;
+    letter-spacing: .3rem;
+}
+#text button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+#new{
+    background-color: hsl(240, 100%, 5%);
+
+    padding: 20px;
+}
+#new, #new a{
+    color: hsl(36, 100%, 99%);
+}
+#new p{
+    color: hsl(233, 8%, 79%);
+    padding: 0 10px 10px 0;
+}
+#new a :hover{
+    color: hsl(35, 77%, 62%);
+}
+hr{
+    border-color: hsl(233, 8%, 79%);
+}
+#new h2{
+    color: hsl(35, 77%, 62%);
+}
+#newsletter{
+    width: 100%;
+    margin-top: 40px;
+}
+#newsletter a{
+    color:hsl(240, 100%, 5%)
+}
+#newsletter a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.content{
+    display: flex;
+}
+.not-image{
+    margin: 0 20px;
+}
+.content img{
+    width: 150px;
+    height: 190.5px;
+}
+.not-image span{
+    color:hsl(233, 8%, 79%);
+    font-weight: 800;
+    font-size: 2em;
+}
+.not-image h3{
+    font-family: "Inter-bold";
+    font-weight: 800;
+    font-size: 1.2em;
+}

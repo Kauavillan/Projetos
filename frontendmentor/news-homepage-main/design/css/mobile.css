@@ -1,0 +1,23 @@
+@media screen and (max-width: 1050px){
+    body{
+        margin: 20px 5%;
+    }
+    #newsletter{
+        flex-wrap: wrap;
+    }
+    .content{
+        margin-top: 20px;
+    }
+    .menu-icon{
+        display: flex;
+    }
+    #list{
+        display: none;
+    }
+    #mobile{
+        display: flex;
+    }
+    #desktop{
+        display: none;
+    }
+}
