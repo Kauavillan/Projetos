@@ -12,6 +12,6 @@ Muito obrigado por visitar esse projeto front-end.
 ## O Desafio
 Assim como todo desafio do site [Frontend Mentor](https://www.frontendmentor.io), ele se consiste em fazer um projeto que se pareça o máximo possível com o site da imagem, tendo como base as fotos, o texto, as cores e sua mente 🧠.
 
-Sinta-se à vontade para visitar o site e ver se realmente ficou parecido 😉.
+Sinta-se à vontade para [visitar o site](https://kauavillan.github.io/Projetos/frontendmentor/qr-code-component-main/) e ver se realmente ficou parecido 😉.
 
 Esse é apenas o inicial, mas ainda tem muito mais para ver por aqui.
