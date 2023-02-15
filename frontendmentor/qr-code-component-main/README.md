@@ -6,12 +6,11 @@
 
 Muito obrigado por visitar esse projeto front-end.
 
-[Frontend Mentor](https://www.frontendmentor.io).
 
 **Para fazer este desafio, é necessário ter conhecimentos básicos sobre html e css. (Esse aqui é só pra começar a esquentar!)**
 
 ## O Desafio
-Assim como todo desafio do site https://www.frontendmentor.io/, ele se consiste em fazer um projeto que se pareça o máximo possível com o site da imagem, tendo como base as fotos, o texto, as cores e sua mente 🧠.
+Assim como todo desafio do site [Frontend Mentor](https://www.frontendmentor.io), ele se consiste em fazer um projeto que se pareça o máximo possível com o site da imagem, tendo como base as fotos, o texto, as cores e sua mente 🧠.
 
 Sinta-se à vontade para visitar o site e ver se realmente ficou parecido 😉.
 
