@@ -1,0 +1,73 @@
+@media screen and (min-width: 1000px) {
+    #background{
+        background-image: url("../images/bg-header-desktop.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .title-subtitle{
+        margin: auto;
+        width: 33%;
+        margin-top: 100px;
+    }
+    #flex-container, #workflow{
+        margin-top: 100px;
+        display: flex;
+        
+    }
+    button{
+        margin-top: 25px;
+        padding: 10px 25px;
+        border-radius: 35px;
+    }
+    .ios{
+        margin-right: 20px;
+    }
+    #sponsors{
+        display: flex;
+    }
+    #workflow, #sponsors{
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 100px auto;
+       
+    }
+    
+    #workflow div{
+        width: 30%;
+    }
+    #computer-image{
+        margin: -35px;
+        width: 950px;
+    }
+    #computer-content{
+        margin-left: 150px;
+        text-align: left !important; 
+    }
+    #computer-content p{
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    footer{
+        height: 150px;
+    }
+    footer nav{
+        display: flex;
+    }
+    nav div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 100px;
+        text-align: left;
+    }
+    #social-icons{
+        margin-left: 18%;
+        
+    }
+    #social-icons svg:not(:last-child){
+        margin-right: 10px;
+    }
+}

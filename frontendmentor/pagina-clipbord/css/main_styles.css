@@ -1,0 +1,73 @@
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+header{
+    margin-bottom: 0px;
+}
+h1{
+    margin-top: 0px;
+}
+header img{
+    margin: 100px 0 30px 0;
+}
+button{
+    
+    padding: 8px 20px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+}
+.ios{
+    border: solid hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+
+    
+}
+.mac{
+    border: solid hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);
+}
+.ios:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -11px hsl(171, 66%, 44%);
+}
+.mac:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px -11px hsl(233, 100%, 69%);
+}
+h1, h2, h3{
+    color: hsl(210, 10%, 33%);
+}
+p{
+    color: hsl(201, 11%, 66%);
+}
+footer{
+    margin-top: 100px;
+    background-color: hsla(202, 11%, 66%, 0.192);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer-logo {
+    width: 3em;
+}
+footer a{
+    color: hsl(201, 11%, 66%);
+    text-decoration: none;
+    margin-top: 15px;
+}
+footer a:hover{
+    color: hsl(171, 66%, 44%);
+}
+#social-icons svg:hover path{
+    cursor: pointer;
+    fill: hsl(171, 66%, 44%);
+}

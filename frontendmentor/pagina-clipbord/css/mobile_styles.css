@@ -1,0 +1,69 @@
+@media screen and (max-width: 999px) {
+    #background{
+        width: 100%;
+        background-image: url("../images/bg-header-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    .devices{
+        width: 95%;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    header p{
+        width: 95%;
+    }
+    button{
+        width: 80%;
+        margin: 10px auto;
+        padding: 13px 15px;
+        border-radius: 30px;
+    }
+    #flex-container{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 150px !important;
+    }
+    #workflow img{
+        margin-top: 50px;
+    }
+    #sponsors{
+        margin: 100px 0; 
+    }
+    #sponsors img{
+        margin-bottom: 60px;
+    }
+    footer, footer div{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        justify-content: space-around;
+    }
+    footer a{
+        margin: 10px 0;
+    }
+    footer div:first-child a:first-child{
+        margin-top: 40px;
+    }
+    #footer-logo{
+        margin-top: 40px;
+    }
+    #social-icons{
+        flex-direction: row;
+        margin: 40px 0;
+    }
+    #social-icons svg:not(:last-child){
+        margin-right: 30px;
+    }
+
+}
