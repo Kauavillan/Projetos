@@ -4,7 +4,7 @@
 
 ## Olá! 👋
 
-Muito obrigado por visitar esse projeto front-end.
+Muito obrigado por visitar este projeto front-end.
 
 
 **Para fazer este desafio, é necessário ter conhecimentos básicos sobre html e css. (Esse aqui é só pra começar a esquentar!)**

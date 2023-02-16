@@ -4,9 +4,7 @@
 
 ## Olá! 👋
 
-Muito obrigado por visitar esse projeto front-end.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Muito obrigado por visitar este projeto front-end.
 
 **Para fazer esse desafio, é necessário um bom entendimento de HTML e CSS e conhecer um pouco de JavaScript.**
 
