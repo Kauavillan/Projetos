@@ -271,4 +271,6 @@ input.warning_input{
     cursor: pointer;
     border-radius: 10px;
     border: transparent;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
 }
