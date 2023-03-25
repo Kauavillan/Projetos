@@ -28,6 +28,7 @@
     #card_number{
         margin-top: 70px;
         font-size: 32px;
+        
     }
     #card_front{
         margin-bottom: 40px;
@@ -74,7 +75,7 @@
         border-radius: 10px;
     }
     #card_number{
-        font-size: 20px;
+        font-size: 18px;
         
     }
     #card_container{
