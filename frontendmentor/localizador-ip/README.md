@@ -6,8 +6,6 @@
 
 Obrigado por visitar este projeto frontend.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
 ## O desafio
 
 O desafio se consiste em criar uma página que recebe um endereço IP ou domínio e retornar a localização do dispositivo, juntamente com algumas informações adicionais.
