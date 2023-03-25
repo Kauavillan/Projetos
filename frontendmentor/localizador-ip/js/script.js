@@ -86,7 +86,7 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 }).addTo(map);
 // Changing marker icon
 var customMarker = L.icon({
-iconUrl: "./../images/icon-location.svg",
+iconUrl: "./images/icon-location.svg",
 popupAnchor:  [22, -5]
 })
 
