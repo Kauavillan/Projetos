@@ -71,3 +71,13 @@ footer a:hover{
     cursor: pointer;
     fill: hsl(171, 66%, 44%);
 }
+::-webkit-scrollbar{
+    color: rgb(255, 255, 255);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: hsl(171, 66%, 44%);
+    width: 10px;
+    border-radius: 5px;
+}
