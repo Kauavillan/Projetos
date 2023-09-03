@@ -1,0 +1,26 @@
+.contentWrapper{
+    display: flex;
+    background-color: var(--white);
+    font-family: 'Ubuntu Regular', Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.content{
+    margin: 10px;
+    display: flex;
+}
+.formWrapper{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+.form{
+    width: 80%;
+    margin-top: 30px;
+}
+@media screen and (min-width: 900px){
+    
+    .contentWrapper{
+        height: 80dvh;
+        width: 70vw;
+    }    
+}

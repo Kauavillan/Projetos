@@ -1,0 +1,14 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    
+    color: var(--marine-blue);
+}
+.first p{
+    color: var(--cool-gray);
+    width: 45vw;
+    margin: 5px 0 15px 0;
+}
+.continue{
+    background-color: black;
+}

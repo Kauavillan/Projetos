@@ -1,0 +1,27 @@
+.step{
+    display: flex;
+}
+.text{
+    text-transform: uppercase;
+    
+}
+.text p{
+    color: var(--paste-blue);
+    font-size: .75rem;
+}
+.text span{
+    font-family: "Ubuntu Bold";
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

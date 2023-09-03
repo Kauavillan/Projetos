@@ -1,0 +1,22 @@
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.input input{
+    width: 100%;
+    border: 1px solid var(--cool-gray);
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 0 5px 10px;
+    font-family: "Ubuntu Bold", Arial, Helvetica, sans-serif;
+    color: var(--marine-blue);
+}
+.input input:focus{
+    outline: 1px solid var(--purplish-blue);
+    border: 1px solid var(--purplish-blue);
+}
+.input label{
+    margin: 5vh 0 5px 0;
+    color: var(--marine-blue);
+}
