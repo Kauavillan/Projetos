@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plans > div{  
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--cool-gray);
+    border-radius: 5px;
+    padding: 20px 15px;
+    width: 25%;
+}
+.plans > div div{
+    margin: 50px 0 10px 0;
+    color: var(--marine-blue);
+    font-family: "Ubuntu Bold";
+    font-size: 1.1em;
+}
+.plans span{
+    color: var(--cool-gray);
+}
+.plans div p{
+    font-family: "Ubuntu Bold";
+    color: var(--marine-blue);
+    margin-top: 10px;
+}
+.plans > div:hover{
+    cursor: pointer;
+    background-color: var(--paste-blue-01);
+    border-color: var(--purplish-blue);
+}
+.selected{
+    background-color: var(--paste-blue-01);
+    border-color: var(--purplish-blue) !important; 
+}
+.period{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--paste-blue-01);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chk{
+    display: none;
+}
+.toggle{
+    background-color: var(--marine-blue);
+    position: relative;
+    width: 50px;
+    height: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 30px;
+}
+.toggle span{
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    transition: all .3s ease-in-out;
+}
+
+.strong{
+    color: var(--marine-blue);
+    font-family: "Ubuntu Bold";
+}
+
+.chk:checked ~ .toggle span{
+    transform: translateX(35px);
+}

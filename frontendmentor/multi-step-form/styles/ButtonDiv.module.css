@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10vh;
+    justify-content: space-between;
+    width: 100%;
+}
+.container button{
+    font-family: "Ubuntu Medium";
+    font-size: 1em;
+}

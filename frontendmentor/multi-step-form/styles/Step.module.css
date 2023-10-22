@@ -14,8 +14,14 @@
     font-weight: bold;
     font-size: .8rem;
 }
-
+.act{
+    transition: .5s;
+    background-color: var(--light-blue);
+    color: var(--marine-blue);
+    
+}
 .number{
+    font-family: "Ubuntu Bold";
     display: flex;
     justify-content: center;
     align-items: center;

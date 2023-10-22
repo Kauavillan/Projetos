@@ -12,11 +12,23 @@
     font-family: "Ubuntu Bold", Arial, Helvetica, sans-serif;
     color: var(--marine-blue);
 }
-.input input:focus{
+.input:not(.error) input:focus{
     outline: 1px solid var(--purplish-blue);
     border: 1px solid var(--purplish-blue);
 }
 .input label{
     margin: 5vh 0 5px 0;
     color: var(--marine-blue);
+}
+.error input{
+    outline: 1px solid var(--strawberry-red);
+    border: 1px solid var(--strawberry-red);
+}
+.error label{
+    display: flex;
+    justify-content: space-between;
+}
+.error span{
+    font-family: "Ubuntu Bold";
+    color: var(--strawberry-red);
 }
