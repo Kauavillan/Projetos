@@ -31,3 +31,12 @@
     height: 25px;
     border-radius: 50%;
 }
+@media screen and (max-width: 899px){
+    .text{
+        display: none;
+    }
+    .number{
+        width: 30px;
+        height: 30px;
+    }
+}

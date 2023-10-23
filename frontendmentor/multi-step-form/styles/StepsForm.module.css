@@ -8,3 +8,11 @@
     width: 45vw;
     margin: 5px 0 15px 0;
 }
+.step h1{
+    font-size: 2em;
+}
+@media screen and (max-width: 899px){
+    .step h1{
+        font-size: 1.7em;
+    }
+}

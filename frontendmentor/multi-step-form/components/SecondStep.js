@@ -36,10 +36,10 @@ export default function SecondStep({actionContinue, actionReturn, savedDate, sav
     }
 
     function saveAndReturn(){
-        if(selectedPlan.arcade || selectedPlan.advanced || selectedPlan.pro){
-            saveData(isYearly, arcadeCost, advancedCost, proCost, selectedPlan);
-            actionReturn();
-        }
+        
+        saveData(isYearly, arcadeCost, advancedCost, proCost, selectedPlan);
+        actionReturn();
+        
        
     }
     function saveAndContinue(){
@@ -63,12 +63,12 @@ export default function SecondStep({actionContinue, actionReturn, savedDate, sav
                 </div>
                 
                 <div className={styles.period}>
-                    <span className={`${isYearly == false && styles.strong}`}>Monthly</span>
+                    <span className={`${isYearly == false ? styles.strong : ""}`}>Monthly</span>
                     <input type="checkbox" id="toggle" className={styles.chk} checked={isYearly} onChange={handleCheckbox}/>
                     <label for="toggle" className={styles.toggle}>
                         <span></span>
                     </label>
-                    <span className={`${isYearly && styles.strong}`}>Yearly</span>
+                    <span className={`${isYearly ? styles.strong : ""}`}>Yearly</span>
                 </div>
                 
             </div>

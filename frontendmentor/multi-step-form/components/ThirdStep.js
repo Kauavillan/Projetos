@@ -40,23 +40,24 @@ export default function ThirdStep({actionContinue, isYearly, savedCheckboxes, sa
         !checkboxes.cb3 ? setPrice(price+addOnsPrices.profile):setPrice(price-addOnsPrices.profile);
     }
     function saveAndContinue(){
-        saveData(checkboxes, price);
+        saveData(checkboxes, price, addOnsPrices);
         actionContinue();
     }
     function saveAndReturn(){
-        saveData(checkboxes, price);
+        saveData(checkboxes, price, addOnsPrices);
         actionReturn();
     }
+    const shortenedDate = isYearly ? "yr" : "mo";
     return(
         <div className={formStyles.step}>
             <h1>Pick add-ons</h1>
             <p>Add-ons help enhance your gaming experience.</p>
             <div className={styles.options}>
-                <Add_Ons isChecked={checkboxes.cb1} handleChange={handleCkb1} title="Online service" description="access to multiplayer games" cost={addOnsPrices.online} />
+                <Add_Ons isChecked={checkboxes.cb1} handleChange={handleCkb1} title="Online service" description="access to multiplayer games" date={shortenedDate} cost={addOnsPrices.online} />
 
-                <Add_Ons isChecked={checkboxes.cb2} handleChange={handleCkb2} title="Larger storage" description="Extra 1TB of cloud save" cost={addOnsPrices.storage} />
+                <Add_Ons isChecked={checkboxes.cb2} handleChange={handleCkb2} title="Larger storage" description="Extra 1TB of cloud save" date={shortenedDate} cost={addOnsPrices.storage} />
 
-                <Add_Ons isChecked={checkboxes.cb3} handleChange={handleCkb3} title="Customizable Profile" description="Custom theme on your profile" cost={addOnsPrices.profile} />
+                <Add_Ons isChecked={checkboxes.cb3} handleChange={handleCkb3} title="Customizable Profile" description="Custom theme on your profile" date={shortenedDate} cost={addOnsPrices.profile} />
             </div>
             <div className={stylesButtons.container}>
                 <Return action={saveAndReturn}/>

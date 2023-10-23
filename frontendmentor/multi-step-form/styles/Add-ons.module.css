@@ -48,3 +48,8 @@
     background-position: center;
     border-color: transparent;
 }
+@media screen and (max-width: 899px) {
+    .checkContainer{
+        margin-right: 15px;
+    }
+}

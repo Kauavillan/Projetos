@@ -76,7 +76,7 @@ export default function FirstStep({actionContinue, saveData, savedName, savedEma
 
             <FormInput id="phone" label="Phone Number" value={phone} onChange={handlePhone} error={errorPhone} textError={errorPhoneText} placeholder="e.g. +1 234 567 890"/>
         </form>
-            <div className={stylesButtons.container}>
+            <div className={`${stylesButtons.reverse} ${stylesButtons.container}`}>
                     <Continue action={verifyForm}/>
             </div>
         </div>

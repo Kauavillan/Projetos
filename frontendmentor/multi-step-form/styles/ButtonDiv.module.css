@@ -9,3 +9,21 @@
     font-family: "Ubuntu Medium";
     font-size: 1em;
 }
+.reverse{
+    flex-direction: row-reverse;
+}
+@media screen and (max-width: 899px) {
+    .container{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100vw;
+        height: 10vh;
+        background-color: var(--white);
+        align-items: center;
+    }
+    .container button{
+        margin: 0 20px;
+        max-height: 45px;
+    }
+}

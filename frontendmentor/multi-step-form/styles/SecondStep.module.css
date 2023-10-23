@@ -1,7 +1,6 @@
 .container{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
 }
 .plans{
     display: flex;
@@ -13,10 +12,8 @@
     border: 2px solid var(--cool-gray);
     border-radius: 5px;
     padding: 20px 15px;
-    width: 25%;
 }
-.plans > div div{
-    margin: 50px 0 10px 0;
+.plans > div h3{
     color: var(--marine-blue);
     font-family: "Ubuntu Bold";
     font-size: 1.1em;
@@ -79,4 +76,30 @@
 
 .chk:checked ~ .toggle span{
     transform: translateX(35px);
+}
+@media screen and (min-width: 900px){
+    .plans > div{  
+        width: 25%;
+    }
+    .plans > div div{
+        margin: 50px 0 10px 0;
+    }
+    .container{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 899px) {
+    .plans{
+        flex-direction: column;
+    }
+    .plans > div{
+        display: flex;
+        flex-direction: row;
+    }
+    .plans > div:not(:first-child){
+        margin-top: 10px;
+    }
+    .plans > div div{
+        margin-left: 15px;
+    }
 }

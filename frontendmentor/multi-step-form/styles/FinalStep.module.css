@@ -13,3 +13,14 @@
 .final h1{
     margin: 30px 0 15px 0;
 }
+.final a{
+    color: var(--marine-blue);
+}
+.final a:hover{
+    color: var(--purplish-blue);
+}
+@media screen and (max-width: 899px) {
+    .final{
+        margin-top: 10vh;
+    }
+}

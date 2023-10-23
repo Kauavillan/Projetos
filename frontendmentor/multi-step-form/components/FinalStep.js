@@ -9,9 +9,8 @@ export default function FinalStep(){
         <h1>Thank you!</h1>
 
         <p>
-            Thanks for confirming your subscription! We hope you have fun 
-            using our platform. If you ever need support, please feel free 
-            to email us at support@loremgaming.com.
+            Thanks for visiting this website! I really hope you liked it. If you did, feel free 
+            to email me at <a href="mailto:kvn.contact.professional@gmail.com" target="_blank">kvn.contact.professional@gmail.com</a> or check my portfolio in <a href="https://kvnportfolio.vercel.app" target="_blank">kvnportfolio.vercel.app</a>.
         </p>
         </div>
     )
